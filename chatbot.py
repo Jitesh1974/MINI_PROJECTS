@@ -1,8 +1,8 @@
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyB4zUdR61V5X7A3bfPz9SEeuxdV0CZm1GI")
+genai.configure(api_key="paste your api key here")
 
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("api model name")
 
 while True:
   prompt = input("How may I help you Sir: ")
